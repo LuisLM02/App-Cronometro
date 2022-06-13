@@ -15,7 +15,7 @@ export default function darkmode(btn, atributo){
     $themeBtn.style.color = 'black'
   }
 
-  function lightmode(){
+  function lightmode(){ 
     $elementos.forEach(ele =>{
       ele.classList.add('lightmode')
     })
